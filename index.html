@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlastProm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="header__logo" href="#hero">
+            <img src="images/logo.png" alt="logo image">
+          </a>
+          <ul class="menu" id="menu">
+            <li class="menu__item active">
+              <a class="menu__link" href="#hero">
+                О нас
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#about">
+                Как мы работаем
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#projects">
+                Наши проекты
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#faq">
+                Часто спрашивают
+              </a>
+            </li>
+            <li class="menu__item-phone menu__item">
+              <a class="header__phone" href="tel:71234567890">+7(123)456-78-90</a>
+            </li>
+          </ul>
+          <a class="header__phone" href="tel:71234567890">+7(123)456-78-90</a>
+          <button class="btn header__btn" type="button">Заказать звонок</button>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__content--left">
+            <h1 class="hero__title">Серийное литье пластмасс под давлением на заказ, изготовление пресс-форм</h1>
+            <p class="hero__text text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nam aspernatur libero. Harum, ratione
+              omnis.
+            </p>
+          </div>
+          <form class="form hero__form" action="#">
+            <h3 class="hero__form-title text">
+              Производство пластиковых изделий от 10000 штук
+            </h3>
+            <input class="form__name" type="text" placeholder="Ваше имя" required>
+            <input class="form__phone" type="tel" name="tel" placeholder="(999)-999-99-99" required>
+            <input class="form__email email" type="email" placeholder="Ваш email (необязательно)">
+            <button class="btn form__btn">Оставьте заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title about__title">О нас</h2>
+        <div class="about__content">
+          <div class="about__img-box">
+            <img src="images/about.jpg" alt="Фото завода">
+          </div>
+          <div class="about__wrapper">
+            <p class="about__text text">
+              Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+              eligendi
+              optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+              omnis dolor repellendus
+            </p>
+            <p class="about__text text">
+              Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+              eligendi
+              optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+              omnis dolor repellendus
+            </p>
+            <p class="about__text text">
+              Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+              eligendi
+              optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+              omnis dolor repellendus
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="howto">
+      <div class="container">
+        <h2 class="howto__title title">
+          Как мы работаем
+        </h2>
+        <div class="howto__wrapper">
+          <div class="howto__group">
+            <div class="howto__group-item">
+              <h3 class="howto__item-title">Если у вас есть пресс-форма:</h3>
+              <ol class="howto__list">
+                <li class="howto__list-item">Мы связываемся с вами, обсуждаем условия</li>
+                <li class="howto__list-item">Заключаем договор</li>
+                <li class="howto__list-item">Согласовываем эталонный образец и размер пробной партии</li>
+                <li class="howto__list-item">Доставляем вашу пресс-форму к нам в цех</li>
+                <li class="howto__list-item">Закупаем сырье или работаем на вашем</li>
+                <li class="howto__list-item">Тестируем, отливаем пробную партию</li>
+                <li class="howto__list-item">Замеряем расход сырья, время цикла, согласовываем результаты, фиксируем их
+                  в договоре</li>
+                <li class="howto__list-item">Определяем срок изготовления партии</li>
+                <li class="howto__list-item">Изготавливаем партию в указанные сроки, упаковываем</li>
+                <li class="howto__list-item">Отправляем к месту назначения</li>
+              </ol>
+            </div>
+            <div class="howto__group-item">
+              <h3 class="howto__item-title">Если у вас нет пресс-формы:</h3>
+              <ol class="howto__list">
+                <li class="howto__list-item">Связываемся, обсуждаем условия</li>
+                <li class="howto__list-item">Заключаем договор</li>
+                <li class="howto__list-item">Согласовываем эталонный образец и размер пробной партии</li>
+                <li class="howto__list-item">Доставляем вашу пресс-форму к нам в цех</li>
+                <li class="howto__list-item">Закупаем сырье или работаем на вашем</li>
+                <li class="howto__list-item">Тестируем, отливаем пробную партию</li>
+                <li class="howto__list-item">Замеряем расход сырья, время цикла, согласовываем результаты, фиксируем их
+                  в договоре</li>
+                <li class="howto__list-item">Определяем срок изготовления партии</li>
+                <li class="howto__list-item">Изготавливаем партию в указанные сроки, упаковываем</li>
+                <li class="howto__list-item">Отправляем к месту назначения</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="materials" id="materials">
+      <div class="container">
+        <div class="materials__wrapper">
+          <h2 class="materials__title title">Материалы, с которыми мы работаем</h2>
+          <div class="materials__content">
+            <ul class="materials__list">
+              <li class="materials__item">
+                <span class="materials__span">ПНД</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полиэтилен низкого давления</p>
+                  <p class="materials__desc-text">Применяется для изготовления: крышек к пластиковым бутылкам, фитингам, кухонным атрибутам, ёмкости для автохимии, фурнитуры для мебели, тарных ящиков</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">АБС</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полипропилен</p>
+                  <p class="materials__desc-text">Материал для производства плёнок (особенно упаковочных), мешков, тары, труб, деталей технической аппаратуры, пластиковых стаканчиков, предметов домашнего обихода и т. д.</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПК</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полипропилен</p>
+                  <p class="materials__desc-text">Материал для производства плёнок (особенно упаковочных), мешков, тары, труб, деталей технической аппаратуры, пластиковых стаканчиков, предметов домашнего обихода и т. д.</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПС</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полипропилен</p>
+                  <p class="materials__desc-text">Материал для производства плёнок (особенно упаковочных), мешков, тары, труб, деталей технической аппаратуры, пластиковых стаканчиков, предметов домашнего обихода и т. д.</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПП</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полипропилен</p>
+                  <p class="materials__desc-text">Материал для производства плёнок (особенно упаковочных), мешков, тары, труб, деталей технической аппаратуры, пластиковых стаканчиков, предметов домашнего обихода и т. д.</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПА</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полипропилен</p>
+                  <p class="materials__desc-text">Материал для производства плёнок (особенно упаковочных), мешков, тары, труб, деталей технической аппаратуры, пластиковых стаканчиков, предметов домашнего обихода и т. д.</p>
+                </div>
+              </li>
+              <li class="materials__item">
+                <span class="materials__span">ПЭ</span>
+                <div class="materials__desc">
+                  <p class="materials__desc-title">Полиэтилен</p>
+                  <p class="materials__desc-text">Используется для изготовления направительных лент, дорожек цепных устройств, различных деталей скольжения, винтов, звездочек, шкивов, смахивающих устройств</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="projects">
+      <div class="container">
+        <h2 class="title portfolio__title">Наши изделия</h2>
+        <div class="portfolio__slider slider">
+          <ul class="slider__box">
+            <div class="slider__img-box">
+              <img src="images/bamper-3.jpg" alt="Фото изделия">
+            </div>
+            <div class="slider__item-box">
+              <li class="slider__item active" data-src="images/bamper-3.jpg">
+                <h3 class="slider__item-title">Автомобильные бамперы</h3>
+                <p class="slider__item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A libero dolore
+                  reprehenderit?</p>
+              </li>
+              <li class="slider__item" data-src="images/kholod.jpg">
+                <h3 class="slider__item-title">Детали холодильников</h3>
+                <p class="slider__item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A libero dolore
+                  reprehenderit?</p>
+              </li>
+              <li class="slider__item" data-src="https://plasticmachinery.ru/wp-content/uploads/2023/02/WeChat-Image_20220914100231.webp">
+                <h3 class="slider__item-title">Пресс-форма — ледоходы</h3>
+                <p class="slider__item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A libero dolore
+                  reprehenderit?</p>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <ul class="portfolio__others--first">
+        <li>
+          <p class="text portfolio-text">Sometext</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Sometext</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Фиксаторы арматуры</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Sometext</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Автобамперы</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Прикроватные ручки</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Оконные рамы</p>
+        </li>
+      </ul>
+      <ul class="portfolio__others--last">
+        <li>
+          <p class="text portfolio-text">Sometext</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Бельевые корзины</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Формы для полок</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Офисные доски</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Игрушки</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Sometext</p>
+        </li>
+        <li>
+          <p class="text portfolio-text">Оконные рамы</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <h2 class="benefits__title title">Наши преимущества</h2>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">Высокая квалификация сотрудников</h3>
+            <p class="benefits__item-text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore commodi
+              dolorem optio deleniti eaque dignissimos?</p>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">Современное оборудование</h3>
+            <p class="benefits__item-text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore commodi
+              dolorem optio deleniti eaque dignissimos?</p>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">Индивидуальный подход</h3>
+            <p class="benefits__item-text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore commodi
+              dolorem optio deleniti eaque dignissimos?</p>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">Качественное литье</h3>
+            <p class="benefits__item-text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore commodi
+              dolorem optio deleniti eaque dignissimos?</p>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">Современное оборудование</h3>
+            <p class="benefits__item-text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore commodi
+              dolorem optio deleniti eaque dignissimos?</p>
+          </li>
+          <li class="benefits__item">
+            <h3 class="benefits__item-title">Индивидуальный подход</h3>
+            <p class="benefits__item-text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore commodi
+              dolorem optio deleniti eaque dignissimos?</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="title faq__title">Часто задаваемые вопросы</h2>
+        <ul class="faq__list">
+          <li class="faq__item">
+            <p class="faq__item-title">Обязательно везти своё сырьё?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">По какой технологии вы работаете?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Как снизить себестоимость сырья?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">У меня нет пресс-формы, что мне делать?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Сколько будет стоить пресс-форма?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Изделия не подходят под оборудование, что мне делать?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Сколько будет стоить пресс-форма?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+          <li class="faq__item">
+            <p class="faq__item-title">Какие сроки реализации проекта?</p>
+            <p class="faq__item-desc">
+              Нет, не обязательно. Мы можем сами найти поставщика качественного сырья, наиболее подходящего под ваш
+              проект с минимально возможной стоимостью.
+              *Также при наличии эталонного образца мы можем сделать химический анализ вашего изделия и подобрать
+              максимально близкий тип и марку сырья, используемые в исходном изделии.
+            </p>
+          </li>
+        </ul>
+
+        <form class="form faq__form" action="#">
+          <h3 class="subtitle faq__form-title">
+            Оставьте заявку на расчёт стоимости и мы свяжемся с вами в течение рабочего дня
+          </h3>
+          <div class="form__inputs">
+            <input class="form__name" type="text" placeholder="Ваше имя">
+            <input class="form__phone" type="tel" name="tel" placeholder="7(999)-999-99-99" required>
+            <input class="form__email email" type="email" placeholder="Ваш email (необязательно)">
+            <input class="form__company" type="text" placeholder="Компания">
+          </div>
+          <button class="btn faq__form-btn">Получить консультацию</button>
+          <p class="form__label">*Нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__socials">
+          <a class="footer__logo" href="#hero"><img src="images/logo.png" alt="Логотип"></a>
+          <ul class="socials">
+            <li><a href="https://vk.com">
+                <svg enable-background="new 0 0 100 100" height="32px" version="1.1" viewBox="0 0 100 100" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="color_x5F_fill"><path d="M93.404,41.873c-0.012-5.826,0.42-11.764,0.18-17.62c-0.117-2.899-0.18-17.445-0.18-17.445   c-2.975,0-7.061-0.047-9.986,0.181C75.744,7.586,6.547,6.95,6.547,6.95c-0.003,3.819,0,17.323,0,21.158   c0,8.002-0.122,15.69-0.182,23.633C6.263,65.488,6.547,79.464,6.547,92.938l1.589,0.081c3.631-0.428,6.285-0.019,9.717-0.081   c6.002-0.109,32.354,0.455,39.31,0.181c6.313-0.248,33.289,0.092,35.878,0.017c0,0,0.438-36.227,0.364-38.87   C93.287,50.083,93.412,46.01,93.404,41.873z M79.827,68.449c-2.254,1.411-11.416,1.831-13.635,0.219   c-1.216-0.884-2.327-1.99-3.385-3.042c-0.739-0.736-1.578-1.093-2.212-1.892c-0.52-0.654-0.874-1.425-1.421-2.069   c-0.921-1.083-2.339-2.004-3.462-0.681c-1.688,1.989,0.267,5.899-1.987,7.385c-0.755,0.499-1.518,0.643-2.462,0.572l-2.091,0.096   c-1.228,0.024-3.175,0.035-4.572-0.218c-1.558-0.281-2.846-1.132-4.255-1.758c-2.676-1.187-5.226-2.803-7.164-5.043   c-5.279-6.1-12.371-14.49-15.126-22.16c-0.565-1.576-2.062-4.694-0.644-6.048c1.929-1.401,11.399-1.797,12.877,0.371   c0.6,0.88,0.979,2.171,1.402,3.169c0.528,1.245,0.814,2.418,1.641,3.521c0.732,0.977,1.271,1.96,1.838,3.032   c0.634,1.202,1.234,2.356,2.006,3.464c0.524,0.753,1.91,2.25,2.785,2.362c2.138,0.273,2.005-4.922,1.847-6.19   c-0.152-1.222-0.191-2.519-0.151-3.758c0.034-1.057,0.13-2.547-0.496-3.411c-1.021-1.408-3.295-0.354-3.473-2.246   c0.377-0.538,0.296-1.014,2.805-1.84c1.975-0.65,3.251-0.629,4.554-0.525c2.655,0.213,5.472-0.506,8.033,0.355   c2.449,0.825,2.07,4.304,1.989,6.39c-0.11,2.848,0.007,5.625,0,8.515c-0.003,1.316-0.057,2.596,1.548,2.489   c1.504-0.101,1.657-1.365,2.375-2.41c0.999-1.456,1.915-2.931,2.931-4.382c1.371-1.96,1.785-4.163,3.073-6.171   c0.462-0.719,0.858-2.289,1.569-2.856c0.537-0.43,1.561-0.246,2.211-0.246h1.548c1.185,0.014,2.393,0.031,3.61,0.074   c1.754,0.061,3.718-0.32,5.457-0.075c7.502,1.059-9.431,17.107-8.549,19.97c0.609,1.978,4.471,4.192,5.865,5.813   C78.562,61.38,84.258,65.675,79.827,68.449z" fill="#4C75A3"/></g><g id="offset_x5F_print_x5F_outline"/></svg>
+              </a></li>
+            <li>
+              <a href="https://t.me/Merantauw">
+                <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg2" version="1.1"
+                  inkscape:version="0.91+devel r" width="35" height="35" viewBox="0 0 512 512"
+                  sodipodi:docname="telegram.svg">
+                  <metadata id="metadata8">
+                    <rdf:RDF>
+                      <cc:Work rdf:about="">
+                        <dc:format>image/svg+xml</dc:format>
+                        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                        <dc:title />
+                      </cc:Work>
+                    </rdf:RDF>
+                  </metadata>
+                  <defs id="defs6" />
+                  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10"
+                    gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2"
+                    inkscape:window-width="1920" inkscape:window-height="1024" id="namedview4" showgrid="false"
+                    showguides="false" inkscape:zoom="1.625" inkscape:cx="607.07692" inkscape:cy="256"
+                    inkscape:window-x="0" inkscape:window-y="29" inkscape:window-maximized="1"
+                    inkscape:current-layer="svg2" />
+                  <circle
+                    style="opacity:1;fill:#4aaee8;fill-opacity:1;stroke:none;stroke-width:91.3417511;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                    id="path3344" cx="256" cy="256" r="225" />
+                  <path
+                    style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:91.3417511;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                    d="m 263.5553,362.57139 c -2.47405,-2.49722 -11.18811,-17.70742 -19.36459,-33.80047 -8.17651,-16.09305 -16.52273,-31.62674 -18.54717,-34.51935 -2.30764,-3.29722 -15.36044,-11.13747 -34.98817,-21.01588 -35.30919,-17.77074 -40.05393,-21.58385 -39.09856,-31.42161 0.87293,-8.98884 4.4521,-10.8486 54.15657,-28.14004 22.73442,-7.90897 59.40415,-20.66244 81.4883,-28.34108 22.08414,-7.67862 42.60204,-13.96114 45.59532,-13.96114 6.24973,0 12.12164,5.52466 12.12164,11.40481 0,2.21336 -7.3663,25.29767 -16.36953,51.29851 -9.00326,26.00084 -19.33718,55.90095 -22.96426,66.44468 -12.2606,35.64064 -21.63633,59.51235 -24.7674,63.06053 -4.29348,4.86547 -11.88159,4.42194 -17.26215,-1.00896 z"
+                    id="path3340" inkscape:connector-curvature="0" />
+                </svg>
+
+              </a></li>
+
+          </ul>
+        </div>
+        <div class="footer__mail">
+          <p class="text">Почта для расчёта серийного литья:</p>
+          <a href="mailto:plastprom@gmail.com">plastprom@gmail.com</a>
+        </div>
+        <div class="footer__phone">
+          <p class="text">Телефоны для связи:</p>
+          <a href="tel:+71234567890">+7 (123) 456-78-90</a>
+        </div>
+        <div class="footer__address">
+          <p class="text">Адрес производства:</p>
+          <span class="text">Россия, г. Екатеринбург, ул. Ленина, 94</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
